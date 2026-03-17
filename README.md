@@ -59,6 +59,7 @@ Startuplpc17xx.s, delay.c , gpio.c , pwm.c , sysytemlpc17xx.c, main.c
  delay.h, gpio.h, pwm.h, stdulils.h
 ## PROGRAM:
 ```
+
 #include <lpc17xx.h> #include "pwm.h" #include "delay.h"
 
 #define CYCLE_TIME 100
@@ -82,6 +83,9 @@ PWM_SetDutyCycle(PWM_3,dutyCycle); //P2_2 DELAY_ms(10);
 }
 }
 ```
+
 ## OUTPUT:
+![WhatsApp Image 2026-03-17 at 10 52 11 AM](https://github.com/user-attachments/assets/61a8ce68-a8eb-4c41-8833-fc6bbd82c8e1)
+
 ## RESULT:
 Thus interfacing LED and PWM with ARM processor LPC1768 is done and the outputs are verified.
